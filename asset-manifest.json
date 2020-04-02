@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-in-github-carousel/static/css/main.15d0c7c5.chunk.css",
+    "main.js": "/React-in-github-carousel/static/js/main.45442881.chunk.js",
+    "main.js.map": "/React-in-github-carousel/static/js/main.45442881.chunk.js.map",
+    "runtime-main.js": "/React-in-github-carousel/static/js/runtime-main.f68095b3.js",
+    "runtime-main.js.map": "/React-in-github-carousel/static/js/runtime-main.f68095b3.js.map",
+    "static/js/2.31be3729.chunk.js": "/React-in-github-carousel/static/js/2.31be3729.chunk.js",
+    "static/js/2.31be3729.chunk.js.map": "/React-in-github-carousel/static/js/2.31be3729.chunk.js.map",
+    "index.html": "/React-in-github-carousel/index.html",
+    "precache-manifest.d482b6ec838fa640fd84631a0a294464.js": "/React-in-github-carousel/precache-manifest.d482b6ec838fa640fd84631a0a294464.js",
+    "service-worker.js": "/React-in-github-carousel/service-worker.js",
+    "static/css/main.15d0c7c5.chunk.css.map": "/React-in-github-carousel/static/css/main.15d0c7c5.chunk.css.map",
+    "static/js/2.31be3729.chunk.js.LICENSE.txt": "/React-in-github-carousel/static/js/2.31be3729.chunk.js.LICENSE.txt",
+    "static/media/naruto.png": "/React-in-github-carousel/static/media/naruto.6c210830.png",
+    "static/media/silentvoice.jpg": "/React-in-github-carousel/static/media/silentvoice.ce07ce4a.jpg",
+    "static/media/spiritedaway.jpg": "/React-in-github-carousel/static/media/spiritedaway.e3a56a10.jpg",
+    "static/media/weatheringwithyou.jpg": "/React-in-github-carousel/static/media/weatheringwithyou.982903d0.jpg",
+    "static/media/yourname.png": "/React-in-github-carousel/static/media/yourname.258d5837.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f68095b3.js",
+    "static/js/2.31be3729.chunk.js",
+    "static/css/main.15d0c7c5.chunk.css",
+    "static/js/main.45442881.chunk.js"
+  ]
+}
