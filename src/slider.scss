@@ -1,0 +1,54 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: black;
+    i { 
+        font-size: 2vw;
+    }
+}
+
+.slide {
+    position: relative;
+    min-width: 100%;
+    height: 90%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+%btn-styles{ // % is a placeholder is scss. instead of using (.), we replaced that (.) symbol in css to the (%) in scss
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 90%;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    &:hover{ //The parent selector, &, is a special selector invented by Sass that’s used in nested selectors to refer to the outer selector. 
+        background: rgba(0, 0, 0, 0.356);
+        cursor: crosshair;
+        i {
+            color : rgb(128, 128, 128);
+        }
+    }
+}
+
+//extend is a feature of Sass that allows classes to share a set of properties with 1 another.
+
+#goLeft {
+    left: 0;
+    @extend %btn-styles; 
+}
+
+#goRight {
+    right: 0;
+    @extend %btn-styles;
+}
